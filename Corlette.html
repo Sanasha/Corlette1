@@ -1,1 +1,82 @@
 <h1> me </h1>
+<!DOCTYPE html>
+<head>
+	 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('data:image/jpeg;base64,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');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://cdn2.dizkover.com/upload/img/list/snapchat-sabrina-carpenter.jpg">
+    <h1>Sabrina's Blog</h1>
+    <ul>
+      <li><a href="http://www.sabrinacarpenter.com/" target="_blank">About Me</a></li>
+      <li><a href="https://www.billboard.com/charts/hot-100"target="_blank">Best Songs</a></li>
+      <li><a href="https://www.billboard.com/articles/news/magazine-feature/7709247/youtube-most-watched-videos" target="_blank">Videos</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>How I got to where i am today</h2>
+    <p>She had a recurring role as the young version of Chloe Goodwin in The Goodwin Games and starred as Maya Hart in the Disney Channel series Girl Meets World. She is signed to Hollywood Records.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Girl meets world days</h2>
+    <p>From 1993 to 2000, viewers followed the relationship of Cory Matthews and Topanga Lawrence-Matthews on "Boy Meets World." More than a decade later, the couple's daughter, Riley, is trying to navigate her 'tween years -- and problems that go with them -- especially in regard to bonds with family and friends. At John Quincy Adams Middle School in Manhattan, Riley finds being a student more difficult because her dad is a history teacher there, and she's in his class. Her mom, a lawyer, is involved in her social life and owns a trendy teen hangout. Among Riley's classmates are best friend Maya, crush Lucas, and quirky Farkle, son of Cory and Topanga's peer Stuart Minkus.
+</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Favorite things to do </h2>
+    <p>There are so many things to admire about Rapunzel, and Sabrina did a fantastic job of covering all the major points in such short time (and we especially appreciated the Pascal shout-out, as he is one of the cutest, sweetest Disney sidekicks). Watch Sabrina share even more about how the Disney princesses inspire her on the Dream Big, Princess “Night of Big Dreams,” Friday, February 19 at 7:30 pm on Disney Channel.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
