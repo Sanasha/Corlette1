@@ -219,6 +219,11 @@
     form {
 	    font-size: 12px;
 	  }
+    .row {
+	    padding: 0px;
+	    margin: 0px;
+	    border: 0px;
+	  }
   }
   @media screen and (max-width: 480px) {
     .logo {
@@ -593,8 +598,12 @@ $(document).ready(function(){
   });
 })
 </script>
-</body>
-  $("button").on("click", function() {
+
+<script>
+    $("button").on("click", function() {
       alert("Clicked!");
     });
+</script>
+	
+</body>
 </html>
